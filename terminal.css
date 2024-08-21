@@ -1,0 +1,148 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+
+.Terminal_container {
+  display: flex;
+  justify-content: center;
+  width: 90%; /* Increased the width of the container */
+}
+
+.terminal {
+    position: relative;
+    width: 800px; /* Adjusted width */
+    max-width: 1000px; /* Adjusted max-width */
+    height: 530px; /* Set a fixed height */
+    border-radius: 6px;
+    padding-top: 45px;
+    margin-top: 8px;
+    overflow: hidden;
+    background-color: rgb(15, 15, 16);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+  }
+
+
+.terminal pre {
+  display: flex;
+  flex-direction: row;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  color: lime;
+  padding: 0 1rem 1rem;
+  margin: 0;
+}
+
+.terminal pre p {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.terminal pre:nth-child(1) p {
+  width: 15em; /* Adjusted width for the typing animation */
+  animation: typing 0.5s steps(30, end);
+}
+
+.terminal pre:nth-child(2) {
+  animation: typing2 4s steps(50, end);
+}
+
+.terminal pre:nth-child(3) {
+  animation: typing2 5s steps(50, end);
+}
+
+.terminal pre:nth-child(4) {
+  animation: typing2 6s steps(50, end);
+}
+
+.terminal pre:nth-child(5) {
+  animation: typing2 7s steps(50, end);
+}
+
+.terminal pre:nth-child(6) {
+  animation: typing2 8s steps(50, end);
+}
+
+.terminal pre:nth-child(7) {
+    animation: typing2 9s steps(50, end);
+  }
+
+.terminal pre:nth-child(8) {
+    animation: typing2 10s steps(50, end);
+  }
+
+
+.terminal pre:nth-child(9) {
+    animation: typing2 11s steps(50, end);
+  }
+
+.terminal pre:nth-child(10) {
+    animation: typing2 12s steps(50, end);
+  }
+
+.terminal pre:nth-child(11) {
+    animation: typing2 13s steps(50, end);
+  }
+
+.terminal pre:nth-child(12) {
+    animation: typing2 14s steps(50, end);
+  }
+
+.terminal pre:nth-child(13) {
+    animation: typing2 15s steps(50, end);
+  }
+
+.terminal pre:nth-child(14) {
+    animation: typing2 16s steps(50, end);
+  }
+  
+.terminal pre:nth-child(15) {
+    animation: typing2 17s steps(50, end);
+  }
+  
+.terminal pre:nth-child(16) {
+    animation: typing2 18s steps(50, end);
+  }
+
+
+
+
+
+.span_terminal {
+  display: block;
+  padding: 1px 0px;
+  background-color: lime;
+  animation: blink 0.8s infinite;
+  height: 20px;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes typing2 {
+  0% {
+    width: 0;
+  }
+  40% {
+    width: 0;
+  }
+  100% {
+    width: 700px; /* Adjusted width for the typing animation */
+  }
+}
+
+@keyframes blink {
+  to {
+    opacity: 0.3;
+  }
+}

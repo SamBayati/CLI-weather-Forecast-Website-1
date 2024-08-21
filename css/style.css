@@ -1,5 +1,12 @@
 
-/*** Spinner Start ***/
+body{
+    
+    background-image: url("https://i.postimg.cc/MZy1TnJS/blurry-gradient-haikei-1.png");
+    background-size: cover;
+    
+    }
+
+    /*** Spinner Start ***/
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -91,10 +98,10 @@
 }
 
 
-.RotateMoveLeft {
+/* .RotateMoveLeft {
     position: relative;
     animation: RotateMoveLeft 10s linear infinite;
-}
+} */
 
 .RotateMoveRight {
     position: relative;
@@ -547,7 +554,7 @@
     100%  {left: 100px;}
 }
 
-.hero-header::before {
+/* .hero-header::before {
     content: "";
     position: absolute;
     left: 100px;
@@ -561,7 +568,7 @@
     transition: 0.5s;
     z-index: -1;
     
-}
+} */
 
 @keyframes RotateMoveSty-4 {
     0%   {left: 100px;}
